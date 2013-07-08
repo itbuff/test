@@ -38,6 +38,17 @@ Projects
 		-> Create another file todo.txt and type:
 			git status
 			// Notice that readme.txt is now modified totodo is new.
+			// To add all files to the staging area use a dot .
+			git add .
+	Commit the files
+		-> To commit type:
+			git commit
+			// In the editor all # will be ignored/
+			// On the first line just type a description for the commit.
+			// Example: Initial commit: created readme.txt and todo.txt files.
+		-> press ESC to make sure you're out of the editor mode
+			:wq
+			// :wq this will write (save) then quit the editor
 		
 	
 		
