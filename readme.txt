@@ -51,6 +51,9 @@ Projects
 			// :wq this will write (save) then quit the editor
 			git status
 			// should display: nothing to commit ...
+		-> create another file called license.txt
+		-> Moditfy todo add 2) ignoring files.
+		
 			
 		
 	
