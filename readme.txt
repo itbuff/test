@@ -49,6 +49,9 @@ Projects
 		-> press ESC to make sure you're out of the editor mode
 			:wq
 			// :wq this will write (save) then quit the editor
+			git status
+			// should display: nothing to commit ...
+			
 		
 	
 		
