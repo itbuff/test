@@ -53,7 +53,9 @@ Projects
 			// should display: nothing to commit ...
 		-> create another file called license.txt
 		-> Moditfy todo add 2) ignoring files.
-		
+		-> Only commit files that have been previously commited.
+			git commit -a
+			// only readme and todo should be commited, license should be ignored.
 			
 		
 	
