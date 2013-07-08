@@ -1,4 +1,5 @@
 TODO file
 
-1) Learn how to commit
-2) Learn to ignore files.
+1) Learn how to commit. 	(done)
+2) Learn to ignore files.	(done)
+3) 
