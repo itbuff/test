@@ -110,6 +110,8 @@ Projects
 			Output:
 			[newlibs d0bc20e] new branch newlibs readme and todo moditfied
 			2 files changed, 32 insertions(+), 8 deletions(-)
+		// when you checkout bakc to master.. It will be an older verion in the working directory.
+		git checkout master
 		// to delete a branch
 		git branch --delete branchName
 		
