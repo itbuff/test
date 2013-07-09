@@ -114,8 +114,18 @@ Projects
 		git checkout master
 		// to delete a branch
 		git branch --delete branchName
-		
-		
+		// CREATE AND CHECKOUT in one line
+		// notice the -b after chekcout (means create branch and then switch)
+		git checkout -b bug-fix-1
+			Output:
+			Switched to a new branch 'bug-fix-1'
+		// back to log... show commits on all branches (Decorate puts colour back into dos life)
+		git log --oneline --graph --all --decorate
+		// ** TIP
+		// IN DOS PROMPT you can create an alias or doskey macro which you cna re-use:...
+		> doskey gl=git log --oneline --all --graph --decorate
+		> gl
+		// Now the above gl will type the long line above :)
 	
 		
 	
