@@ -1,0 +1,5 @@
+exclude
+libs
+*.swp~
+*.tmp
+!libs/mycustomlib.php

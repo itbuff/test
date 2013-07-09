@@ -56,6 +56,8 @@ Projects
 		-> Only commit files that have been previously commited.
 			git commit -a
 			// only readme and todo should be commited, license should be ignored.
+			// A quick commit without using editor, pass the message string.
+			git commit -m "now license is commited"
 			
 		
 	
