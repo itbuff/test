@@ -2,4 +2,4 @@ TODO file
 
 1) Learn how to commit. 	(done)
 2) Learn to ignore files.	(done)
-3) 
+3) Learn about Branches     (done)

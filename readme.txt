@@ -64,13 +64,13 @@ Projects
 		// Usually only code sections need tracking.
 		-> Create a folder called exclude
 		-> Create folder called include
-		-> Create a file called .gitignore
+		-> Create a textfile called .gitignore
 		-> Add these lines to .gitignore file:
-			exclude
-			libs/*.*
-			*.swp~
-			*.tmp
-			!libs/mycustomlib.php
+			1] exclude
+			2] libs/*.*
+			3] *.swp~
+			4] *.tmp
+			5] !libs/mycustomlib.php
 			// So all the ones above will be excluded from your project.
 			// !libs... line means NOT excluded
 			// where ! = NOT
@@ -80,8 +80,32 @@ Projects
 		// This will display (if any) changes before staging (compared to the index)
 		git diff --staged readme.txt
 		// find out the difference between stage and commited
+		git diff HEAD readme.txt
+		// find out the difference between working folder and commited, skips staging area
+	LOGS
+		// Show a log off all commits (commit comments will also be shown)
+		git log
+		// Show graph (don't get ecited its text base)
+		git log --graph
+		// Show one liner graph. Will display one line per commit.
+		git log --oneline --graph
+		// Make it pretty
+		//               hash name when
+		git log --pretty="%h, %cn, %cr"
+		****
+		// Graphical git UI displaying logs
+		gitk  
+		****
+	BRANCH
+		// the branch command allows you to branch off new revisions without affecting 
+		// the original or HEAD branch.
 		
-		
+		// List the branch
+		git branch
+		// create new branch
+		git branch newlibs
+		// Switch to the branch (note: you must switch to a branch before you can use it)
+		git checkout newlibs
 		
 		
 	
