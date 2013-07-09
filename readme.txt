@@ -74,7 +74,14 @@ Projects
 			// So all the ones above will be excluded from your project.
 			// !libs... line means NOT excluded
 			// where ! = NOT
-			
+	DIFF
+		// finding out the differences between changes
+		git diff readme.txt
+		// This will display (if any) changes before staging (compared to the index)
+		git diff --staged readme.txt
+		// find out the difference between stage and commited
+		
+		
 		
 		
 	
