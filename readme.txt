@@ -110,6 +110,8 @@ Projects
 			Output:
 			[newlibs d0bc20e] new branch newlibs readme and todo moditfied
 			2 files changed, 32 insertions(+), 8 deletions(-)
+		// to delete a branch
+		git branch --delete branchName
 		
 		
 	
