@@ -58,7 +58,23 @@ Projects
 			// only readme and todo should be commited, license should be ignored.
 			// A quick commit without using editor, pass the message string.
 			git commit -m "now license is commited"
-			
+	Exclusions
+		// There are files and folders that do not need tracking for exmaple.
+		// JQuery Librabries and framework libraries don't need to be tracked.
+		// Usually only code sections need tracking.
+		-> Create a folder called exclude
+		-> Create folder called include
+		-> Create a file called .gitignore
+		-> Add these lines to .gitignore file:
+			exclude
+			libs/*.*
+			*.swp~
+			*.tmp
+			!libs/mycustomlib.php
+			// So all the ones above will be excluded from your project.
+			// !libs... line means NOT excluded
+			// where ! = NOT
+		
 		
 	
 		

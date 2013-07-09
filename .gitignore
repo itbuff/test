@@ -1,5 +1,5 @@
 exclude
-libs
+libs/*.*
 *.swp~
 *.tmp
 !libs/mycustomlib.php
