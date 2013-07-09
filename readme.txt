@@ -106,6 +106,10 @@ Projects
 		git branch newlibs
 		// Switch to the branch (note: you must switch to a branch before you can use it)
 		git checkout newlibs
+		git commit -am "new branch newlibs readme and todo moditfied"
+			Output:
+			[newlibs d0bc20e] new branch newlibs readme and todo moditfied
+			2 files changed, 32 insertions(+), 8 deletions(-)
 		
 		
 	
