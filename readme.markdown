@@ -14,13 +14,13 @@ Settings
 
 * First set the option to Global level - Only for the current user.
   
-* All users would be system<br>
+All users would be system
   
-    _**Type the follow to set Name and Email**_ 
+    _**Type the following to set Name and Email**_ 
 	
-    ```git config --global user.name "Simon Assouline"```
+    ```git config --global user.name "My Name"```
 	
-    ```git config --global user.email "simon@itbuff.com.au"```
+    ```git config --global user.email "email@itbuff.com.au"```
 	
 *To display output in colour type:*
     git config --global color.ui = true
