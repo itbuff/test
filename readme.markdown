@@ -5,10 +5,10 @@
 ![It Buff](http://www.itbuff.com.au/images/logo.png)
 
 Settings 
---------
+========
 Location of .gitconfig C:\Users\[UserName]
 
-####Login Credentials
+###Login Credentials
 
 >_First set the option to Global level - ( Global means for the current user. All users would be system_)
   
@@ -28,9 +28,11 @@ __Type the following to set Name and Email__
 
 Projects
 ========
-####Create new reposotory
+###Create new reposotory
 
->_First move to the Project folder and open command prompt and type:_
+>_First move to the Project folder and open command prompt_
+
+**type:_**
 
     git init
 	
@@ -38,7 +40,8 @@ Projects
 >2. _populate it with text_
 >3. _Save it in the projects root folder_
 >_This root folder should contain a folder called .git_
->_To view project status type:_
+
+**To view project status type:**
 
     git status
 	
