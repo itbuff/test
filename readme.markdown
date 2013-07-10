@@ -1,11 +1,12 @@
 #Git Essentials
-===============
-![It Buff](http://www.itbuff.com.au/images/logo.png)
+==================
 
 *README file for projects.*
 
+![It Buff](http://www.itbuff.com.au/images/logo.png)
+
 Location of .gitconfig
-	C:\Users\[UserName]
+C:\Users\[UserName]
 
 Settings 
 --------
