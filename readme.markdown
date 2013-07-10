@@ -84,7 +84,7 @@ Projects
 >Moditfy todo add 2) ignoring files.
 >Only commit files that have been previously commited.
 
-   git commit -a
+    git commit -a
 
 >only readme and todo should be commited, license should be ignored.
 
@@ -94,22 +94,24 @@ Projects
 
 Exclusions
 ==========
-// There are files and folders that do not need tracking for exmaple.
-// JQuery Librabries and framework libraries don't need to be tracked.
-// Usually only code sections need tracking.
--> Create a folder called exclude
--> Create folder called include
--> Create a textfile called .gitignore
--> Add these lines to .gitignore file:
-1. exclude
-2. libs/*.*
-3. *.swp~
-4. *.tmp
-5. !libs/mycustomlib.php
-// So all the ones above will be excluded from your project.
-// !libs... line means NOT excluded
-// where ! = NOT
-DIFF
+>There are files and folders that do not need tracking for exmaple.
+>JQuery Librabries and framework libraries don't need to be tracked.
+>Usually only code sections need tracking.
+1. Create a folder called exclude
+2. Create folder called include
+3. Create a textfile called .gitignore
+4. Add these lines to .gitignore file:
+
+    1. exclude
+    2. libs/*.*
+    3. *.swp~
+    4. *.tmp
+    5. !libs/mycustomlib.php
+	
+>So all the ones above will be excluded from your project.
+>!libs... line means NOT excluded
+>where ! = NOT
+###DIFF
 // finding out the differences between changes
 git diff readme.txt
 // This will display (if any) changes before staging (compared to the index)
