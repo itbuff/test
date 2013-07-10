@@ -1,4 +1,4 @@
-# Git Essentials
+<h1>Git Essentials</h1>
 
 README file for projects.
 
@@ -11,7 +11,7 @@ Settings
 		// All users would be system
 		-> Type the follow to set Name and Email
 			git config --global user.name "Simon Assouline"
-			git config --global user.email "regos@itbuff.net"
+			git config --global user.email "simon@itbuff.com.au"
 		-> To display output in colour type:
 			git config --global color.ui = true
 		
@@ -126,7 +126,36 @@ Projects
 		> doskey gl=git log --oneline --all --graph --decorate
 		> gl
 		// Now the above gl will type the long line above :)
-	
-		
-	
+		// To merge one branch into another:
+		git merge bug-fix-1
+		// now we can delete the bug-fix-1 branch
+		git branch -d bug-fix-1
+		// Using rebase to revert changes to the master branch from another branch
+		git rebase newlibs
+	GITHUB
+		// Create SSH key
+		-> Open git Bash
+		 > ssh-keygen -t rsa -C 'simon@itbuff.com.au'
+			> filename
+			> passphrase
+		-> You'll find the file in c:\users\simon\.ssh
+		-> use the .pub file for github
+		-> paste the contents into githug website shh keys
+		 > ssh -T git@github.com
+		 // Add your local "existing" repository to github online.
+		 > git remote add origin git@github.com:itbuff/test.git
+		 // Now push your local repository to github online
+		 > git push -u origin master
+		-> If you go to github.com you should now see your files.
+		// Now lets look at ALL /a branches
+		 > git branch -a
+		// Rename the readme file using git command 
+		 > git mv readme.txt readme.markdown
+		// Commit
+		 > git commit -m "changed reame.txt to readme.markdown"
+			Output:
+			[master d1576c6] changed reame.txt to readme.markdown
+			1 file changed, 0 insertions(+), 0 deletions(-)
+			rename readme.txt => readme.markdown (100%)
+		 > git push origin master
 	
