@@ -100,19 +100,18 @@ Exclusions
 >JQuery Librabries and framework libraries don't need to be tracked.  
 >Usually only code sections need tracking.  
 
-1. Create a folder called exclude
-
-2. Create folder called include
-
-3. Create a text file called .gitignore
-
+1. Create a folder called exclude  
+2. Create folder called include  
+3. Create a text file called .gitignore  
 4. Add these lines to .gitignore file:
 
-    1. exclude
-    2. libs/*.*
-    3. *.swp~
-    4. *.tmp
-    5. !libs/mycustomlib.php
+> 
+
+    exclude  
+    libs/*.*  
+    *.swp~  
+    *.tmp  
+    !libs/mycustomlib.php  
 	
 >So all the ones above will be excluded from your project.
 >!libs... line means NOT excluded
