@@ -18,11 +18,11 @@ __Type the following to set Name and Email__
 	
     git config --global user.email "email@itbuff.com.au"
 	
->To display output in colour type:
+**To display output in colour type:**
 
     git config --global color.ui = true
 
->**note: To display a setting type the setting without a value**
+>*note: To display a setting type the setting without a value*
 
     git config --global user.email
 
