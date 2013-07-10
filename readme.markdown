@@ -5,14 +5,13 @@
 
 ![It Buff](http://www.itbuff.com.au/images/logo.png)
 
-Location of .gitconfig
-C:\Users\[UserName]
-
 Settings 
 --------
+Location of .gitconfig C:\Users\[UserName]
+
 ####Login Credentials
 
-_First set the option to Global level - Only for the current user._
+_First set the option to Global level - Only for the current user._ 
 _All users would be system_
   
 __Type the following to set Name and Email__
@@ -24,8 +23,7 @@ __Type the following to set Name and Email__
 *To display output in colour type:*
     git config --global color.ui = true
 
-__note: To display a setting type the setting without a value__
-
+**note: To display a setting type the setting without a value** 
     git config --global user.email
 
 Projects
