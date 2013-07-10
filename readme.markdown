@@ -24,6 +24,7 @@ Settings
 git config --global user.email
 
 Projects
+--------
 Create new reposotory
 -> First move to the Project folder and open command prompt and type:
 git init
@@ -62,7 +63,9 @@ git commit -a
 // only readme and todo should be commited, license should be ignored.
 // A quick commit without using editor, pass the message string.
 git commit -m "now license is commited"
+
 Exclusions
+----------
 // There are files and folders that do not need tracking for exmaple.
 // JQuery Librabries and framework libraries don't need to be tracked.
 // Usually only code sections need tracking.
@@ -70,11 +73,11 @@ Exclusions
 -> Create folder called include
 -> Create a textfile called .gitignore
 -> Add these lines to .gitignore file:
-1] exclude
-2] libs/*.*
-3] *.swp~
-4] *.tmp
-5] !libs/mycustomlib.php
+1. exclude
+2. libs/*.*
+3. *.swp~
+4. *.tmp
+5. !libs/mycustomlib.php
 // So all the ones above will be excluded from your project.
 // !libs... line means NOT excluded
 // where ! = NOT
@@ -101,6 +104,7 @@ git log --pretty="%h, %cn, %cr"
 gitk  
 ****
 BRANCH
+------
 // the branch command allows you to branch off new revisions without affecting 
 // the original or HEAD branch.
 
@@ -137,6 +141,7 @@ git branch -d bug-fix-1
 // Using rebase to revert changes to the master branch from another branch
 git rebase newlibs
 GITHUB
+------
 // Create SSH key
 -> Open git Bash
  > ssh-keygen -t rsa -C 'simon@itbuff.com.au'
