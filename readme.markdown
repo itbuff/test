@@ -578,4 +578,3 @@ __*To do so simply type*__
 >>You can merge origin and master when changes have been made and pulled using:  
 
     git merge origin/master
-
