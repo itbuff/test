@@ -1,15 +1,16 @@
-<h1>Git Essentials</h1>
+#Git Essentials
+![It Buff](http://www.itbuff.com.au/images/logo.png)
 
 README file for projects.
 
 Location of .gitconfig
 	C:\Users\[UserName]
 
-Settings 
-	Login Credentials
-		// First set the option to Global level - Only for the current user.<br>
-		// All users would be system<br>
-		-> Type the follow to set Name and Email
+* Settings 
+  * Login Credentials
+    *First set the option to Global level - Only for the current user.*
+    *All users would be system*
+	__Type the follow to set Name and Email__
     git config --global user.name "Simon Assouline"
     git config --global user.email "simon@itbuff.com.au"
 		-> To display output in colour type:
