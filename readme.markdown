@@ -95,11 +95,17 @@ Projects
 Exclusions
 ==========
 >There are files and folders that do not need tracking for exmaple.
+
 >JQuery Librabries and framework libraries don't need to be tracked.
+
 >Usually only code sections need tracking.
+
 1. Create a folder called exclude
+
 2. Create folder called include
+
 3. Create a textfile called .gitignore
+
 4. Add these lines to .gitignore file:
 
     1. exclude
