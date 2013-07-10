@@ -32,7 +32,7 @@ Projects
 
 >_First move to the Project folder and open command prompt_
 
-**type:_**
+**Type:**
 
     git init
 	
@@ -45,18 +45,25 @@ Projects
 
     git status
 	
-// you'll notice readme.txt is a Untracked file
-Add a file to the unstage area
-git add readme.txt
-git status
-// you'll notice readme.txt is now flagged as a new file
--> Moditify readme.txt
--> Create another file todo.txt and type:
-git status
-// Notice that readme.txt is now modified totodo is new.
-// To add all files to the staging area use a dot .
-git add .
-Commit the files
+>You'll notice readme.txt is a Untracked file
+
+**Add a file to the unstage area**
+
+    git add readme.txt
+    git status
+
+>You'll notice readme.txt is now flagged as a new file
+>Moditify readme.txt
+>Create another file todo.txt and type:
+
+    git status
+	
+>Notice that readme.txt is now modified totodo is new.
+>To add all files to the staging area use a dot .
+
+    git add .
+
+###Commit the files
 -> To commit type:
 git commit
 // In the editor all # will be ignored/
