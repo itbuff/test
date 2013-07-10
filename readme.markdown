@@ -12,11 +12,11 @@ Settings
 --------
 ####Login Credentials
 
-__First set the option to Global level - Only for the current user.__
+_First set the option to Global level - Only for the current user._
   
-__All users would be system__
+_All users would be system_
   
-_**Type the following to set Name and Email**_ 
+__Type the following to set Name and Email__
 	
     git config --global user.name "My Name"
 	
