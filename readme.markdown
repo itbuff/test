@@ -1,4 +1,5 @@
 #Git Essentials
+===============
 ![It Buff](http://www.itbuff.com.au/images/logo.png)
 
 README file for projects.
