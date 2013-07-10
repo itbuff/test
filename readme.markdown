@@ -13,7 +13,6 @@ Settings
 ####Login Credentials
 
 _First set the option to Global level - Only for the current user._
-  
 _All users would be system_
   
 __Type the following to set Name and Email__
@@ -25,11 +24,9 @@ __Type the following to set Name and Email__
 *To display output in colour type:*
     git config --global color.ui = true
 
-...
-// note: To display a setting 
--> type the setting without a value:
-git config --global user.email
-...
+__note: To display a setting __
+*type the setting without a value
+    git config --global user.email
 
 Projects
 --------
