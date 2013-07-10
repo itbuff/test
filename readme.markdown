@@ -11,8 +11,10 @@ Location of .gitconfig C:\Users\[UserName]
 
 ####Login Credentials
 
-_First set the option to Global level - Only for the current user._ 
-_All users would be system_
+>_First set the option to Global level - Only for the current user._
+
+>_All users would be system_
+
   
 __Type the following to set Name and Email__
 	
