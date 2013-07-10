@@ -199,7 +199,8 @@ Output:
     git log --oneline --graph --all --decorate
 
 >*TIP*  
->IN DOS PROMPT you can create an alias or doskey macro which you cna re-use:...
+>IN DOS PROMPT you can create an alias or doskey macro which you can re-use:...
+> check this link about DOSKEY. [Saving permanently](http://darkforge.blogspot.com.au/2010/08/permanent-windows-command-line-aliases.html).
 
     doskey gl=git log --oneline --all --graph --decorate  
     gl
@@ -262,3 +263,27 @@ GITHUB
 >rename readme.txt => readme.markdown (100%)  
 
     git push origin master
+
+###Pull Requests
+> When someone uses fork on your project they can modify the code and send you a pull request.  
+> If the changes are acceptable you can merge the request into your project.  
+
+> However you will need to update your project on your local computer once you've merged the request.  
+
+__*To do so simply type*__
+
+    git pull
+
+> This will update your local project with the remote changes made by the request forked.
+
+###Cloning
+>You can clone another project by obtaining its link available on the github.com project.  
+>> *For example cloning Zend Framework 2.*
+
+    git clone https://github.com/zendframework/zf2.git
+
+>> *Use the fetch command to pull the changes down.
+
+    git fetch
+
+
