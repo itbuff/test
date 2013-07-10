@@ -13,11 +13,11 @@ Settings
 * Login Credentials
   * First set the option to Global level - Only for the current user.
   * All users would be system<br>
-	_*Type the follow to set Name and Email_*
-	git config --global user.name "Simon Assouline"
-	git config --global user.email "simon@itbuff.com.au"
+  _*Type the follow to set Name and Email_*
+    git config --global user.name "Simon Assouline"
+    git config --global user.email "simon@itbuff.com.au"
 *To display output in colour type:*
-	git config --global color.ui = true
+    git config --global color.ui = true
 
 // note: To display a setting 
 -> type the setting without a value:
