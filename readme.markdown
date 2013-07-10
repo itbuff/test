@@ -64,26 +64,36 @@ Projects
     git add .
 
 ###Commit the files
--> To commit type:
-git commit
-// In the editor all # will be ignored/
-// On the first line just type a description for the commit.
-// Example: Initial commit: created readme.txt and todo.txt files.
--> press ESC to make sure you're out of the editor mode
-:wq
-// :wq this will write (save) then quit the editor
-git status
-// should display: nothing to commit ...
--> create another file called license.txt
--> Moditfy todo add 2) ignoring files.
--> Only commit files that have been previously commited.
-git commit -a
-// only readme and todo should be commited, license should be ignored.
-// A quick commit without using editor, pass the message string.
-git commit -m "now license is commited"
+**To commit type:**
+
+    git commit
+
+>In the editor all lines starting with # will be ignored
+>On the first line just type a description for the commit.
+>Example: Initial commit: created readme.txt and todo.txt files.
+>*PRESS ESC* to make sure you're out of the editor mode
+
+    :wq
+
+>:wq this will write (save) then quit the editor
+
+    git status
+
+>should display: nothing to commit ...
+>create another file called license.txt
+>Moditfy todo add 2) ignoring files.
+>Only commit files that have been previously commited.
+
+   git commit -a
+
+>only readme and todo should be commited, license should be ignored.
+
+**A quick commit without using editor, pass the message string.**
+
+    git commit -m "now license is commited"
 
 Exclusions
-----------
+==========
 // There are files and folders that do not need tracking for exmaple.
 // JQuery Librabries and framework libraries don't need to be tracked.
 // Usually only code sections need tracking.
