@@ -24,9 +24,7 @@ __Type the following to set Name and Email__
 *To display output in colour type:*
     git config --global color.ui = true
 
-__note: To display a setting __
-
-* type the setting without a value
+__note: To display a setting type the setting without a value__
 
     git config --global user.email
 
