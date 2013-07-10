@@ -1,6 +1,5 @@
 #Git Essentials
 ==================
-
 *README file for projects.*
 
 ![It Buff](http://www.itbuff.com.au/images/logo.png)
@@ -11,7 +10,7 @@ Location of .gitconfig C:\Users\[UserName]
 
 ####Login Credentials
 
->_First set the option to Global level - ( Global means for the current user. For all users would be system_)
+>_First set the option to Global level - ( Global means for the current user. All users would be system_)
   
 __Type the following to set Name and Email__
 	
@@ -23,20 +22,26 @@ __Type the following to set Name and Email__
 
     git config --global color.ui = true
 
->**note: To display a setting type the setting without a value**  
+>**note: To display a setting type the setting without a value**
+
     git config --global user.email
 
 Projects
---------
-Create new reposotory
--> First move to the Project folder and open command prompt and type:
-git init
-Create a README file 
--> populate it with text
--> Save it in the projects root folder 
-// This root folder should contain a folder called .git
--> To view project status type:
-git status
+========
+####Create new reposotory
+
+>_First move to the Project folder and open command prompt and type:_
+
+    git init
+	
+>1. _Create a README file_
+>2. _populate it with text_
+>3. _Save it in the projects root folder_
+>_This root folder should contain a folder called .git_
+>_To view project status type:_
+
+    git status
+	
 // you'll notice readme.txt is a Untracked file
 Add a file to the unstage area
 git add readme.txt
