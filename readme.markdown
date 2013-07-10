@@ -12,9 +12,9 @@ Settings
 --------
 ####Login Credentials
 
-* First set the option to Global level - Only for the current user.
+__First set the option to Global level - Only for the current user.__
   
-All users would be system
+__All users would be system__
   
 _**Type the following to set Name and Email**_ 
 	
