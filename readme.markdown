@@ -364,3 +364,11 @@ Alias - shorten git commands
 
     alias gs='git status'  
     alias gc='git commit'
+
+>Use doskey for dos prompt
+
+    doskey ls=dir
+
+> OR from a file
+
+    doskey /macrofile=doskey.txt
