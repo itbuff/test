@@ -372,4 +372,12 @@ Alias - shorten git commands
 > OR from a file
 
     doskey /macrofile=doskey.txt
+
+Is there a way to skip password typing when using https:// github
+=================================================================
+>Read this article
+
+    [Cache Password(http://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-github)
+	
+	
 	
