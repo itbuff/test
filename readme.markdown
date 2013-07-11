@@ -322,6 +322,31 @@ git Commands
 
 >To split or patch a file before a commit use:
 
-	git add -p
+    git add -p
 
+git stash
+======
+>The git stash allows you to stash content that you don't want to commit until you're ready.  
+>Unstaged files currently in the queue will now be staged (ignored in future commits)
 
+    git stash
+
+>You can now make changes to other files and commit them without affecting files before the stash command.  
+
+*__Find out what has been stashed:__*
+
+    git stash list
+
+*__remove content from stage__*
+
+    git stash apply stash@{1}
+
+>stash@{1} would have been shown in the list when using _git  stash list_  
+>**NOTE** when using apply the content of stash will still be in stashing and working area.  
+>**USE** pop to move the stash back into working folder.
+
+    git stash pop stash@{1}
+
+*__to remove or drop a stash applied use:__*  
+
+    git stash drop
