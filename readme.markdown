@@ -383,4 +383,3 @@ Is there a way to skip password typing when using https:// github
 
 	
 	
-	
