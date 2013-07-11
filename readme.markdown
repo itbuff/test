@@ -318,5 +318,10 @@ git Commands
 ==========
 >Interactive add
 
-    git add -i
+    git add -i  
+
+>To split or patch a file before a commit use:
+
+	git add -p
+
 
