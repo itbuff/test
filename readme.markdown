@@ -289,3 +289,27 @@ __*To do so simply type*__
 >>You can merge origin and master when changes have been made and pulled using:  
 
     git merge origin/master
+
+Making your own webpage on github
+==========================
+1. Create a new folder and initialise a new repository on github.com by its webname.  
+example: itbuff.github.com
+
+> 
+
+    md itbuff.github.com  
+    cd itbuff.github.com 
+    git init
+    git add .
+    git status
+    git commit -m "first commit"
+    git remote add origin git@github.com:itbuff/itbuff.github.com.git
+    git push -u origin master
+
+>Now when you go to itbuff.github.com you have your personal github webpage
+
+>To create a page for a project use:
+
+    git checkout --orphan gh-pages
+
+>Watch video 17 for more details.
