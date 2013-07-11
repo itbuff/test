@@ -350,3 +350,17 @@ git stash
 *__to remove or drop a stash applied use:__*  
 
     git stash drop
+
+
+Alias - shorten git commands
+=====================
+>shorten the status command
+
+    git config --global alias.s status  
+    git config --global alias.a add
+    git config --global alias.aa "add ."
+
+>You can also create aliases in git bash command prompt
+
+    alias gs='git status'  
+    alias gc='git commit'
