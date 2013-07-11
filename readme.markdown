@@ -380,6 +380,7 @@ Is there a way to skip password typing when using https:// github
 [Cache Password](http://www.stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-github)  
 [git-credentials](http://gitcredentialstore.codeplex.com/releases/view/103679)  
 
+
 	
 	
 	
