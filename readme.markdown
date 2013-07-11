@@ -313,3 +313,10 @@ example: itbuff.github.com
     git checkout --orphan gh-pages
 
 >Watch video 17 for more details.
+
+git Commands
+==========
+>Interactive add
+
+    git add -i
+
